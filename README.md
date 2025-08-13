@@ -1,5 +1,5 @@
-# Reperio-rPPG: Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Physiological Measurement
-This repository is the official implementation of the paper [**Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Physiological Measurement**].
+# Reperio-rPPG: Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Heart Rate Measurement
+This repository is the official implementation of the paper [**Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Heart Rate Measurement**].
 
 ## Dependencies
 ```
