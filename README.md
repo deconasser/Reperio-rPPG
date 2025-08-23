@@ -18,5 +18,5 @@ pip install path/to/torchvision-0.15.1+cu118-cp39-cp39-linux_x86_64
 1. Replace **Path/to/XXXX/dataset** and **Path/to/cache/directory** with the correct directories in *preprocess.py*
 2. Execute the script by running: `python preprocess.py`
 3. Update the configuration files in *./configs/* by setting **Path/to/XXXX/dataset** and **Path/to/cache/directory** to the appropriate paths.
-4. Start training by executing: `python ./train.py --config ./configs/lsts_xxxx.yaml --split_idx idx` where `xxxx` refers to the dataset name and `idx` is the data split index (from 0 to 4).
-5. Training progress and results are tracked via [Weights & Biases](https://wandb.ai/). Visit the platform to monitor your experiments.
+4. Start training by executing: `python ./train.py --config ./configs/reperio_xxxx.yaml --split_idx idx` where `xxxx` refers to the dataset name and `idx` is the data split index (from 0 to 4).
+
