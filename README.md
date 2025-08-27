@@ -1,6 +1,6 @@
 # Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Heart Rate Measurement
 This repository is the official implementation of the paper [**Reperio-rPPG: Relational Temporal Graph Neural Networks for Periodicity Learning in Remote Heart Rate Measurement**].
-
+<img width="2648" height="1228" alt="Reperio-rPPG_Architecture" src="https://github.com/user-attachments/assets/83986ae6-1a02-4b98-a1d6-f313cb019ae6" />
 ## Dependencies
 ```
 conda create -n rppg python=3.9
