@@ -14,25 +14,3 @@ class NegPearson(nn.Module):
         return torch.mean(-pearson + 1)
     
 
-class MSELoss(nn.Module):
-    """
-    MSE loss (mean squared error) theo cùng định dạng đầu vào
-    như các hàm loss trước đó.
-    """
-    def __init__(self, dim=1):
-        """
-        :param dim: Chiều mà ta coi là "chiều tín hiệu" (thường là T)
-                    để tính trung bình hoặc làm các phép biến đổi.
-        """
-        super().__init__()
-        self.dim = dim
-
-    def forward(self, predictions, ground_truths):
-        if predictions.ndim > 2:
-            predictions = predictions.squeeze(-1)
-        if ground_truths.ndim > 2:
-            ground_truths = ground_truths.squeeze(-1)
-        
-        mse_per_sample = torch.mean((predictions - ground_truths) ** 2, dim=self.dim)
-        return torch.mean(mse_per_sample)
-
